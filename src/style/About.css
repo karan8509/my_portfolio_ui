@@ -1,0 +1,126 @@
+.about-section {
+  color: white;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  margin: 40px  0px 20px 0px;
+  font-family: "Spicy Rice", serif;
+  font-weight: bold;
+}
+
+.content .description{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Signika", sans-serif;
+}
+
+/* Contact Info Section */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-info a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+
+/* Icons */
+.contact-info a .icon {
+  cursor: pointer;
+  color: white;
+}
+
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  margin-top: 20px;
+}
+
+.skill-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  /* width: 40%; */
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+/* .skill-box:hover { */
+  /* background: rgba(0, 255, 204, 0.2); */
+  /* transform: scale(1.05);
+} */
+
+.skill-box h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+.skill-box p {
+  font-size: 16px;
+}
+
+/* Resume Button */
+.resume-btn {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00ffcc;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #ffcc00;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .contact-info {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skill-box {
+    width: 90%;
+  }
+}

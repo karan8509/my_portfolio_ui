@@ -1,0 +1,25 @@
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000033; /* 🌌 Dark Blue Space Theme */
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: twinkling linear infinite;
+  }
+  
+  @keyframes twinkling {
+    0% { opacity: 0.8; transform: scale(1); }
+    50% { opacity: 0.3; transform: scale(1.2); }
+    100% { opacity: 0.8; transform: scale(1); }
+  }
+  

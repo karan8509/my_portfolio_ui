@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;
+}
+/* Global Background for Entire Website */
+/* body {
+    background: "radial-gradient(circle at top, #2a0e61, #000000)";
+    minHeight: "100vh";color: "white" ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+} */
