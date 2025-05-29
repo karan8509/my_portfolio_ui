@@ -68,7 +68,7 @@ const About = () => {
 
           </div>
           <div className="resume-btn">
-            <a href="/resume.pdf" download className="btn">
+            <a href="/karanKashyap.pdf" download className="btn">
               Download Resume
             </a>
           </div>
