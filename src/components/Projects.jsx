@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../style/Projects.css";
 import project1 from "../assets/ecom.png";
 import image1 from '../assets/assignment/image1.png';
+import naksh from "../assets/naksh.png"
 
 const projects = [
   {
@@ -19,7 +20,14 @@ const projects = [
     image: image1,
     link: "https://car-demo-frontend.vercel.app/",
     code: "https://github.com/karan8509/car_demo_frontend"
-  },
+  },{
+   id: 3,
+    name: "nextjs_intern_assignment from Naksh Jewels",
+    technologies: "Next.js Intern Assignment | Naksh Jewels",
+    image: naksh,
+    link: "https://geer-intern-assignment-private-copy.vercel.app",
+    code: "https://github.com/karan8509/car_demo_frontend"
+  }
 ];
 
 const Projects = () => {
